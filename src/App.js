@@ -1,9 +1,12 @@
 import './App.css';
+import TrainPositions from './components/TrainPositions';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Kristina</h1>
+      <Nav />
+      <TrainPositions />
     </div>
   );
 }
